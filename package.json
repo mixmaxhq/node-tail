@@ -4,14 +4,14 @@
   "contributors": [
     "Luca Grulla",
     "Tom Hall"],
-  "name": "tail",
+  "name": "@mixmaxhq/tail",
   "description": "tail a file in node",
   "keywords": ["tail", "file"],
   "version": "1.2.3",
-  "homepage": "https://www.lucagrulla.com/node-tail",
+  "homepage": "https://github.com/mixmaxhq/node-tail",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lucagrulla/node-tail.git"
+    "url": "git://github.com/mixmaxhq/node-tail.git"
   },
   "main": "lib/tail",
   "engines": {
@@ -29,5 +29,8 @@
     "chai": "^3.2.0",
     "coffeescript": "2.2.4",
     "mocha": "^3.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
